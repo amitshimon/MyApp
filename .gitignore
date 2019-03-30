@@ -1,0 +1,5 @@
+*.config
+appsettings*
+bin/
+obj/
+Properties/
