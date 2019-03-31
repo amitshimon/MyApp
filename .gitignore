@@ -3,3 +3,4 @@ appsettings*
 bin/
 obj/
 Properties/
+/.vs/WebApplication14/v15/Server/sqlite3

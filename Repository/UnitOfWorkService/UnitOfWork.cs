@@ -9,8 +9,11 @@ namespace Repository.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public IReadRepository Read { get; set; }
+        //Application Context
         private IdentityDbContext _UnitOfWork { get; set; }
+        //Read Repo
+        public IReadRepository Read { get; set; }
+        //Write Repo
         public IWriteRepository Write { get; set; }
 
         public UnitOfWork(
